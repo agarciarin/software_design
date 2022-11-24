@@ -127,7 +127,8 @@ class Interface(object):
             print ("lstexcludes EMPTY")
         
         if self.filedir['filename'].lower().endswith(".f90"):
-            generate_diagrams_fortran(self.filedir['filename'], self.filedir['dirname'], self.lstExcludes)
+            print("a")
+            #generate_diagrams_fortran(self.filedir['filename'], self.filedir['dirname'], self.lstExcludes)
 
         elif self.filedir['filename'].lower().endswith(".py"):
             generate_diagrams_python(self.filedir['filename'], self.filedir['dirname'], self.lstExcludes)

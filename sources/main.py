@@ -11,7 +11,7 @@ from tkinter import filedialog as tkFileDialog
 from tkinter import *
 
 from fortran import  generate_diagrams as generate_diagrams_fortran
-from python  import  generate_diagrams as generate_diagrams_python
+from python2  import  generate_diagrams as generate_diagrams_python
 from cpp     import  generate_diagrams as generate_diagrams_cpp
 
 from pathlib import Path

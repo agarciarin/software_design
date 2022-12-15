@@ -1,4 +1,4 @@
-#Update but it doesnt work properly (9/12/22 -> it works)
+#Update but it doesnt work properly
 import re
 import os
 import fnmatch

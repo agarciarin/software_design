@@ -58,7 +58,7 @@ class CPP_Program(object):
            w = line.split(' ')
            if len(w) ==2:
                if w[0] == "import":  module = w[1]
-               if module  not in lines: lines.append(module)
+               #if module  not in lines: lines.append(module)
 
            elif len(w) > 2:
              if w[0] == "from" and w[2] == "import": 
